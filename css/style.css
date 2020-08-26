@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	font-family: tahoma;
+}
+/*header start*/
+.container {
+	width: 85%;
+	margin: auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	padding: 15px;
+}
+
+/*****************header-area*****************/
+.welcome-area {
+	background-color: #535d69;
+}
+.welcome-area .left {
+	float: left;
+	overflow: hidden;
+}
+.welcome-area h2 {
+	color: #ffffff;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: bold;
+}
+.welcome-area .right {
+	overflow: hidden;
+}
+.welcome-area .right ul {
+	text-align: right;
+	margin: 10px 0;
+}
+.welcome-area .right ul li {
+	display: inline;
+}
+.welcome-area .right ul li a {
+	text-decoration: none;
+	padding: 10px 10px;
+	color: #ffffff;
+
+}
+
+.right ul li:hover a {
+	color: red;
+	transition: .5s;
+}
+.btn {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	margin-left: 20px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: #b62536;
+
+}
+.btn:hover {
+	background: #820113;
+}
+.menu {
+	width: 80%;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 0;
+
+}
+ .logo {
+	width: 15%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.menu .logo img {
+	width: 100%;
+	
+}
+
+.menu  ul {
+	
+	float: right;
+
+}
+.menu  ul li {
+	list-style: none;
+	float: left;
+		}
+.menu ul li a {
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight:400;
+	color: #535D69;
+	text-decoration: none;
+	padding: 0 5px;
+	display:inline-block;
+	transition:.5s;
+}
+.menu  ul li:last-child a{
+	padding-right: 0;
+}
+.menu  ul li a:hover {
+	color: #BD233F;
+}
+/*header end*/
+/*banner start*/
+.banner{
+  background-image: url(../images/business.jpg);
+
+}
